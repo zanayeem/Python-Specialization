@@ -14,7 +14,7 @@ mylist = list()
 for line in file:
     line = line.rstrip()
     #print(line)
-    numbers = re.findall("[0-9]+",line) #Finding all the numbers
+    numbers = re.findall("[0-9]+",line) #Finding all the numbers    
     if len(numbers) <= 0: continue #If in a line there is no numbers skip it
     # print(numbers) #Checking the list of numbers per line
     # print(len(numbers))  #Checking the length of that list
