@@ -32,9 +32,8 @@ class NayeemSkills(Nayeem): #Inheritance class of Nayeem
         for i in  Nayeem.program_skill: #Inheriting "program skill" from Nayeem class            
             print(j,".",i)
             j=j+1
-    
-#END OF CLASS
 
+#----------------------------------------------------------------------------------------#    
 #OBJECTS OR INSTANCES
 
 zn = Nayeem() #Instantiating
