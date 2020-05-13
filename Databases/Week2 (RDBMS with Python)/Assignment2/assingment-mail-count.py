@@ -16,7 +16,7 @@ for line in fh:
     pieces = line.split()
     org = pieces[1]  #Extracting the org address with splitting
     parts = org.split('@') #Splitting @
-    org = parts[-1] #Extracting the organization domain
+    org = parts[1] #Extracting the organization domain
     cur.execute('SELECT count FROM Counts WHERE org = ? ', (org,)) # "?" is a placeholder
     row = cur.fetchone() #Fetch only one row
     if row is None: #If row empty
