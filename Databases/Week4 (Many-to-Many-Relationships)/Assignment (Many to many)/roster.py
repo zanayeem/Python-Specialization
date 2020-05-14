@@ -32,7 +32,7 @@ fname = input('Enter file name: ')
 if len(fname) < 1:
     fname = 'roster_data.json'
 
-# [
+# [ JSON DATA FORMATTING
 #   [ "Charley", "si110", 1 ],
 #   [ "Mea", "si110", 0 ],
 

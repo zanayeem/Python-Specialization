@@ -20,9 +20,9 @@ for line in fh:
     if row is None: #If row empty
         cur.execute('''INSERT INTO Counts (email, count)
                 VALUES (?, 1)''', (email,))
-    else: #If row exists 
+    else: #If row exists increasing count
         cur.execute('UPDATE Counts SET count = count + 1 WHERE email = ?',
-                    (email,))
+                    (email,)) 
     conn.commit() #Writing everything to database
 
 # https://www.sqlite.org/lang_select.html

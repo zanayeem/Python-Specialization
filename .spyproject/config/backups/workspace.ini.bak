@@ -6,5 +6,5 @@ save_non_project_files = False
 
 [main]
 version = 0.2.0
-recent_files = ['Databases\\Week3 (Designing a Data Model)\\tracks\\tracks.py', 'Databases\\Week3 (Designing a Data Model)\\Assignment (with Genre Table)\\itunes-music-database.py', 'Databases\\Week3 (Designing a Data Model)\\Assignment (with Genre Table)\\Library.xml']
+recent_files = []
 

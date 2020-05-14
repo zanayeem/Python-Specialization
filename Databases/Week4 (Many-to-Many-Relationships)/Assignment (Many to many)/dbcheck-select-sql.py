@@ -13,3 +13,5 @@ SELECT hex(User.name || Course.title || Member.role ) AS X FROM
 #Printing out the searched result [0] index 
 print(cur.fetchone()[0])
 
+# print(cur.fetchall()) #Fetches all relevant data as a list
+
