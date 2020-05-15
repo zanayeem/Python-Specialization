@@ -101,9 +101,9 @@ for entry in all: #All dicts of data one by one
     conn.commit()
 #----------------------------------------------------------------------
 #USE THE SQL COMMAND TO CHECK VALIDITY: 
-    # SELECT Track.title, Artist.name, Album.title, Genre.name 
-    # FROM Track JOIN Genre JOIN Album JOIN Artist 
-    # ON Track.genre_id = Genre.ID and Track.album_id = Album.id 
-    #     AND Album.artist_id = Artist.id
-    # ORDER BY Artist.name LIMIT 3
-    
+# cur.execute('''SELECT Track.title, Artist.name, Album.title, Genre.name 
+#     FROM Track JOIN Genre JOIN Album JOIN Artist 
+#     ON Track.genre_id = Genre.ID and Track.album_id = Album.id 
+#         AND Album.artist_id = Artist.id
+#     ORDER BY Artist.name LIMIT 3''')    
+# print(cur.fetchone()[0])    

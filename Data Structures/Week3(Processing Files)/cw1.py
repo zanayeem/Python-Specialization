@@ -98,7 +98,7 @@ count = 0 #Initializing all the variables
 total = 0
 zero_pos = 0
 conf_no=0
-for line in fh:
+for line in file:
     if not line.startswith("X-DSPAM-Confidence:") : 
         continue
     count += 1 #Increasing count 
