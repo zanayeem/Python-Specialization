@@ -6,5 +6,5 @@ save_non_project_files = False
 
 [main]
 version = 0.2.0
-recent_files = ['C:\\Users\\Zannatun Nayeem\\.spyder-py3\\temp.py']
+recent_files = ['Access Web Data\\Week2 (Regex)\\regex-prac.py', 'Access Web Data\\Week2 (Regex)\\assingment1week2.py', 'Access Web Data\\Week3 & 4 (HTTP & HTML parsing)\\lastname of sequence.py', 'Access Web Data\\Week3 & 4 (HTTP & HTML parsing)\\http-practice.py', 'Access Web Data\\Week 6 (JSON and REST)\\json-assignment1-sum.py', 'Access Web Data\\Week 6 (JSON and REST)\\json-assignment2-using-geoson.py', 'Access Web Data\\Week 5 (XML)\\assignment1 xml extract from web.py', 'Data Structures\\Week3(Processing Files)\\cw1.py', 'Data Structures\\Week1\\Find index of characters.py', 'Data Structures\\Week4 (List)\\ass1.py', 'Data Structures\\Week4 (List)\\ass2.py', 'Data Structures\\Week5 (Dictionary)\\assignment1.py']
 

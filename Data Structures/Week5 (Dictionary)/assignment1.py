@@ -13,7 +13,7 @@ for line in file:
         words = line.split()
         #print(words)
         wordsAt1 = words[1]
-        #print(wordsAt1)
+        print(wordsAt1)
         for word in wordsAt1.split(): #VERYY IMPORTANT!!!!! (Since we are not being able to use the word variable directly we split the wordsAt1)
             counts[word] = counts.get(word,0) + 1 #Taking words instead of word because the [1] index contains only the email addresses which we need.
 #print(counts)
@@ -21,7 +21,7 @@ for line in file:
 #Finding the highest occurence
 bigCount = None
 bigWord = None
-for key,value in counts.items():
+for key,value in counts.items(): #Creating items tuple
     if bigCount == None or value > bigCount:
         bigCount = value
         bigWord = key

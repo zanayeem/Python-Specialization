@@ -9,7 +9,7 @@ for key,value in d.items():
 
 print(d.items()) #List of tuples
 print(d)    #Dictionary
-print(sorted(d.items())) #Sorting
+print(sorted(d.items())) #Sorting respect to key
 
 for key,value in sorted(d.items()): #loopping and printing by sorting
     print(key,value)
